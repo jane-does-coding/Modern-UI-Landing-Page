@@ -18,7 +18,7 @@ const Award = () => {
             {awardData.h1}
           </motion.h1>
           <motion.p
-            variants={variant1(0.7)}
+            variants={variant1(0.2)}
             initial="hidden"
             whileInView={"show"}
             className="text-lg my-5 text-white opacity-40"
